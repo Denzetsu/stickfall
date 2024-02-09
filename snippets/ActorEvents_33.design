@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-collide-typetotype comment="false" x="81" y="82">
+            <group eventID="1" id="-1">
+                <die comment="false" x="92" y="114">
+                    <ACTOR eid="this" id="0"/>
+                </die>
+                <scene-reload-color comment="false" x="92" y="141">
+                    <int id="0" val="0"/>
+                    <int id="1" val="1"/>
+                    <color b="0" g="0" id="2" r="0"/>
+                    <int id="3" val="0"/>
+                    <int id="4" val="2"/>
+                    <color b="0" g="0" id="5" r="0"/>
+                </scene-reload-color>
+            </group>
+            <actortype eid="33" id="0"/>
+            <actortype eid="42" id="1"/>
+        </event-collide-typetotype>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <step comment="false" x="541" y="164">
+            <group eventID="2" id="-1">
+                <camera-follow comment="false" x="552" y="189">
+                    <ACTOR eid="1" id="0"/>
+                </camera-follow>
+            </group>
+        </step>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <step comment="false" x="372" y="97">
+            <group eventID="1" id="-1">
+                <set-dxy comment="false" x="383" y="122">
+                    <ACTOR eid="1" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="0"/>
+                </set-dxy>
+                <if comment="false" x="383" y="149">
+                    <group eventID="1" id="-1">
+                        <set-dxy comment="false" x="394" y="182">
+                            <ACTOR eid="1" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="-20"/>
+                        </set-dxy>
+                        <setanim comment="false" x="394" y="209">
+                            <ACTOR eid="1" id="0"/>
+                            <int id="1" val="walk-l"/>
+                        </setanim>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <control eid="2" id="1"/>
+                    </keystate>
+                </if>
+                <else-if comment="false" x="383" y="248">
+                    <group eventID="1" id="-1">
+                        <set-dxy comment="false" x="394" y="281">
+                            <ACTOR eid="1" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="20"/>
+                        </set-dxy>
+                        <setanim comment="false" x="394" y="308">
+                            <ACTOR eid="1" id="0"/>
+                            <int id="1" val="walk-r"/>
+                        </setanim>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <control eid="3" id="1"/>
+                    </keystate>
+                </else-if>
+            </group>
+        </step>
+    </group>
+    <group eventID="3" id="-1"/>
+</groups>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <collide comment="false" x="0" y="0">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="11" y="30">
+                    <group eventID="-1" id="-1">
+                        <stop comment="false" x="22" y="55"/>
+                    </group>
+                    <is-transitioning comment="false" id="0" x="0" y="0"/>
+                </if>
+                <if comment="false" x="11" y="87">
+                    <group eventID="-1" id="-1">
+                        <if comment="false" x="22" y="117">
+                            <group eventID="-1" id="-1">
+                                <if comment="false" x="33" y="142">
+                                    <group eventID="-1" id="-1">
+                                        <if comment="false" x="44" y="180">
+                                            <group eventID="-1" id="-1">
+                                                <scene-change-new comment="false" x="55" y="205">
+                                                    <get-val-17-3 comment="false" id="0" x="0" y="0"/>
+                                                    <int id="1" val="0"/>
+                                                    <get-val-17-8 comment="false" id="2" x="0" y="0"/>
+                                                    <int id="3" val="0"/>
+                                                    <get-val-17-9 comment="false" id="4" x="0" y="0"/>
+                                                </scene-change-new>
+                                                <if comment="false" x="55" y="237">
+                                                    <group eventID="-1" id="-1">
+                                                        <set-val-17-10 comment="false" x="66" y="267">
+                                                            <true comment="false" id="0" x="0" y="0"/>
+                                                        </set-val-17-10>
+                                                        <create-actor3-next comment="false" x="66" y="292">
+                                                            <get-val-17-7 comment="false" id="0" x="0" y="0"/>
+                                                            <get-val-17-4 comment="false" id="1" x="0" y="0"/>
+                                                            <get-val-17-5 comment="false" id="2" x="0" y="0"/>
+                                                            <int id="3" val="0"/>
+                                                        </create-actor3-next>
+                                                    </group>
+                                                    <not comment="false" id="0" x="0" y="0">
+                                                        <get-val-17-10 comment="false" id="0" x="0" y="0"/>
+                                                    </not>
+                                                </if>
+                                            </group>
+                                            <get-val-17-6 comment="false" id="0" x="0" y="0"/>
+                                        </if>
+                                        <else comment="false" x="44" y="348">
+                                            <group eventID="-1" id="-1">
+                                                <scene-change-new comment="false" x="55" y="368">
+                                                    <get-val-17-3 comment="false" id="0" x="0" y="0"/>
+                                                    <int id="1" val="0"/>
+                                                    <get-val-17-8 comment="false" id="2" x="0" y="0"/>
+                                                    <int id="3" val="0"/>
+                                                    <get-val-17-9 comment="false" id="4" x="0" y="0"/>
+                                                </scene-change-new>
+                                            </group>
+                                        </else>
+                                    </group>
+                                    <keystate comment="false" id="0" x="0" y="0">
+                                        <int id="0" val="0"/>
+                                        <get-val-17-2 comment="false" id="1" x="0" y="0"/>
+                                    </keystate>
+                                </if>
+                            </group>
+                            <get-val-17-1 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                        <else comment="false" x="22" y="436">
+                            <group eventID="-1" id="-1">
+                                <if comment="false" x="33" y="456">
+                                    <group eventID="-1" id="-1">
+                                        <scene-change-new comment="false" x="44" y="481">
+                                            <get-val-17-3 comment="false" id="0" x="0" y="0"/>
+                                            <int id="1" val="0"/>
+                                            <get-val-17-8 comment="false" id="2" x="0" y="0"/>
+                                            <int id="3" val="0"/>
+                                            <get-val-17-9 comment="false" id="4" x="0" y="0"/>
+                                        </scene-change-new>
+                                        <if comment="false" x="44" y="513">
+                                            <group eventID="-1" id="-1">
+                                                <set-val-17-10 comment="false" x="55" y="543">
+                                                    <true comment="false" id="0" x="0" y="0"/>
+                                                </set-val-17-10>
+                                                <create-actor3-next comment="false" x="55" y="568">
+                                                    <get-val-17-7 comment="false" id="0" x="0" y="0"/>
+                                                    <get-val-17-4 comment="false" id="1" x="0" y="0"/>
+                                                    <get-val-17-5 comment="false" id="2" x="0" y="0"/>
+                                                    <int id="3" val="0"/>
+                                                </create-actor3-next>
+                                            </group>
+                                            <not comment="false" id="0" x="0" y="0">
+                                                <get-val-17-10 comment="false" id="0" x="0" y="0"/>
+                                            </not>
+                                        </if>
+                                    </group>
+                                    <get-val-17-6 comment="false" id="0" x="0" y="0"/>
+                                </if>
+                                <else comment="false" x="33" y="624">
+                                    <group eventID="-1" id="-1">
+                                        <scene-change-new comment="false" x="44" y="644">
+                                            <get-val-17-3 comment="false" id="0" x="0" y="0"/>
+                                            <int id="1" val="0"/>
+                                            <get-val-17-8 comment="false" id="2" x="0" y="0"/>
+                                            <int id="3" val="0"/>
+                                            <get-val-17-9 comment="false" id="4" x="0" y="0"/>
+                                        </scene-change-new>
+                                    </group>
+                                </else>
+                            </group>
+                        </else>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <collision-shape-group comment="false" id="0" x="0" y="0"/>
+                        <get-val-17-11 comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+            </group>
+        </collide>
+    </group>
+    <group eventID="1" id="-1"/>
+</groups>
